@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #dc3545, #ffc107);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.nav-link:hover {
+  background-image: linear-gradient(to right, #dc3545, #ffc107);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* SLIDER START. */
+.bgImg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("../images/bgImg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 560px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#typing-text {
+  margin-top: 230px;
+  width: 1000px;
+  height: 100px;
+  font-size: 55px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px;
+  overflow: hidden;
+}
+
+/* HERO SECTION STARTED */
+.box1Wrapper {
+  height: 630px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 25px;
+}
